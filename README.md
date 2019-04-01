@@ -19,10 +19,10 @@ Create a form in "home.html" file that contains all the required information of 
 
 
 
-### Part 3: Applicants
+### Part 3: Apply Function
 Edit the relevant files so that students can apply and their information gets saved in the database
 
 
 
-### Part 4:
-Edit the relevant files so that "applicants.html" would show all the applicants and their information 
+### Part 4: Applicants List
+Edit the relevant files so that "applicants.html" would show all the applicants in the database and their information 
