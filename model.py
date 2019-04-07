@@ -7,4 +7,9 @@ Base = declarative_base()
 
 # Write your classes here :
 class Applicant(Base):
-    pass
+	__tablename__ = 'Applicants'
+	id = Column(Integer, primary_key = True)
+	name = Column(String)
+	age = Column(Integer)
+	subject = Column(String)
+

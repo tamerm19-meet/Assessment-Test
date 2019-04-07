@@ -10,3 +10,18 @@ session = DBSession()
 
 def function(parameter):
     pass
+
+def add_applicant(id, name, age, subject):
+    student_object = Student(
+    	id=id,
+        name=name,
+        age=age,
+        subject=subject)
+    session.add(applicant_object)
+    session.commit()
+
+
+def query_all():
+   applicants = session.query(
+      Applicant).all()
+   return applicants
